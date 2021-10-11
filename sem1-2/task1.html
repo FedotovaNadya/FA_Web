@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Task1</title>
+		<link rel="stylesheet" href="task1.css">
+	</head>
+	<body>
+		<h1>Ресторан "Облепиха"</h1>
+		<form id="" action="#" method="POST">
+			<p>Расскажите нам о Ваших впечатлениях</p>
+			<fieldset>
+				<legend>Контактная информация</legend>
+
+				<label for="name">Имя 
+				<input id="name" name="name" placeholder="Иван" required="" type="text">
+				<em>*</em></label>
+				<br>
+
+				<label for="telephone">Номер телефона </label>
+				<input id="telephone" name="telephone" placeholder="+7 (916) 111-11-11"  type="tel"><br>
+				
+				<label for="email">Электронная почта 
+				<input id="email" name="email" required="" type="email"><em>*</em>
+				</label>
+				<br>
+				<label for="dateVisit">Дата посещения
+					<input id="dateVisit" name="dateVisit" required="" type="date"><em>*</em>
+					</label>
+					<br>
+			</fieldset>
+
+			<fieldset>
+				<legend>Персональная информация</legend>
+				<label for="dateBirth">Возраст
+				<input id="dateBirth" name="dateBirth" required="" type="number" value="14" min=14 max=120>
+				<em>*</em></label>
+				<br>
+				<label for="favoriteСuisine">Любимая кухня</label>
+				<select name="favoriteСuisine" id="favoriteСuisine">
+					<option value="russian">Русская</option>
+					<option value="italian">Итальянская</option>
+					<option value="spanish">Испанская</option>
+					<option value="french">Французская</option>
+					<option value="other">Другая</option>
+				</select>
+				<br>
+				<label for="newdish">Какие блюда Вы хотели бы видеть в нашем меню?</label><br>
+				<textarea name="newdish" id="newdish" rows="3"></textarea>
+			</fieldset>
+
+			<fieldset>
+				<legend>Оценка нашего заведения</legend>
+				<p><b>Почему Вы выбрали наше заведение?</b></p>
+				<input type="checkbox" value="near" id="near" name="cause">
+				<label for="near">Недалеко от дома/работы</label>
+				<br>
+				<input type="checkbox" value="ad" id="ad" name="cause">
+				<label for="ad">Увидел(а) рекламу</label>
+				<br>
+				<input type="checkbox" value="advice" id="advice" name="cause">
+				<label for="advice">Посоветовали</label>
+				<br>
+				<input type="checkbox" value="price" id="price" name="cause">
+				<label for="price">Оптимальное соотношение цены и качества</label>
+				<br>
+
+				<p><b>Вы будете рекомендовать наше заведение своим знакомым?</b></p>
+				<input type="radio" value="yes" id="yes" name="recommend" checked>
+				<label for="yes">Да</label>
+				<br>
+				<input type="radio" value="no" id="no" name="recommend">
+				<label for="no">Нет</label>
+				<br>
+			</fieldset>
+			<div>
+				<input type="submit"  value="Отправить">
+			</div>
+		</form>
+	</body>
+</html>
+
+<!--
++Заголовок
+
+Короткий абзац с подробным описанием формы
+
+Различные формы ввода, такие как:
++обычный текст, 
+номер, 
++электронная почта, 
++раскрывающийся список, 
++переключатель, 
++флажок и 
++текстовая область
+
++Кнопка отправки для отправки данных
+
+
+
+
+-->
