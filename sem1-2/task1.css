@@ -1,0 +1,34 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(215, 253, 248);
+}
+h1{
+    text-align: center;
+}
+form{
+    margin:0 20%;
+    padding: 2% 5%;
+    background-color:rgb(247, 220, 224);
+}
+
+fieldset{
+    margin: 2% 0;
+    border: black dashed 1px;
+}
+
+input, select, textarea{
+    background-color: rgb(250, 250, 228);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 0.5%;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+div{
+    text-align: center;
+}
