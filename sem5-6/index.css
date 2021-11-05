@@ -21,8 +21,30 @@ nav{
 
 body{
     background-color: red;
+    color: white;
 }
 
 a{
     font-family: OSWALD;
+}
+
+h1{
+    font-size: 72px;
+    position: absolute;
+    top: 383px;
+    left: 310px;
+}
+
+.hero>p{
+    position: absolute;
+    top: 505px;
+    left: 316px;
+    /*font-family: OpenSans;*/
+    font-size: 20px;
+    text-align: center;
+    height: 27px;
+    width: 1171.0482177734375px;
+    left: 316.0390930175781px;
+    top: 505.5px;
+    border-radius: nullpx;
 }
