@@ -1,0 +1,28 @@
+.hero{
+    background: url("img/hero_Image.png");
+    height: 904px;
+    width: 1800px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+nav{
+    /*background:rgba(0, 0, 0, 1) ;
+    */
+    height: 21px;
+    width: 503px;
+    left: 985.3577270507812px;
+    top: 79px;
+    border-radius: 0px;
+
+}
+
+body{
+    background-color: red;
+}
+
+a{
+    font-family: OSWALD;
+}
