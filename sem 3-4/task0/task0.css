@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+#main_form{
+    margin:1% 20%;
+    padding: 2% 5%;
+    background-color:rgb(247, 220, 224);
+}
+
+img{
+    width: 50px;
+}
+
+body{
+    /*font-family: 'Times New Roman', Times, serif;*/
+    background-color:rgb(215, 253, 248);
+}
+
+
+fieldset{
+    margin: 2% 0;
+    padding: 2%;
+    border: black dashed 1px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
