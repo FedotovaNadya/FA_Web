@@ -1,0 +1,108 @@
+
+body{
+    background-color: #fff;
+}
+
+.hero{
+    background: url("img/hero_Image.png") no-repeat;
+    height: 904px;
+    width: 1800px;
+    margin-left: 50px;
+    margin-top: 48px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding: 9px 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+nav{
+    height: 21px;
+    margin-left: 900px;
+    margin-top: 79px;
+}
+
+a {
+    margin-left: 50px;
+    margin-right: 10px;
+    font-family: Oswald;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.94px;
+  }
+  
+h1{
+    position: relative;
+    left: 310.48px;
+    margin-top: 290px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 4.61px;
+    
+}
+
+.hero>p{
+    margin-top: 40px;
+    margin-left: 310px;
+    height: 27px;
+    width: 1171px;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1.28px
+}
+
+.slade-controls>ul{
+    position: absolute;
+    height: 49px;
+    left: 843px;
+    top: 836px;
+    border-radius: 0px;
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+
+li.hr {
+    display: inline; /* Отображать как строчный элемент */
+    /*font-family: Oswald;*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 1.152000069618225px;
+    text-align: left;
+    color: #FFFFFF6F;
+    ;
+    
+}
+li.hr:first-of-type{
+    font-size: 36px;   
+    line-height: 53px;
+    letter-spacing: 2.30400013923645px;
+    color: white;
+}
+
+.rectangle2{
+  position: absolute;
+width: 9.98px;
+height: 2px;
+left: 844px;
+top: 860px;
+z-index: 2;
+background: #4CAF50;
+}
+
+.rectangle3{
+  position: absolute;
+  width: 39.93px;
+  height: 2px;
+  left: 847px;
+  top: 860px;
+  z-index: 0;
+  background: #4CAF50;
+}
