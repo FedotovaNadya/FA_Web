@@ -1,4 +1,22 @@
 @charset "UTF-8";
+/*colors*/
+/*fonts*/
+/**
+Также существует набор собственных функций SCSS: https://sass-lang.com/documentation/modules
+
+ЗАДАЧИ:
+
+1) Реализовать примеры, описанные в обучающей части и отобразить их в html файле (создать html файл, который будет использовать скомпилированный css)
+
+2) Реализовать макет из файла семинара 5-6 с использованием SCSS, используя его возможности по максимуму
+*/
+.newrect, .recttwo, .rectbl, .rectangle3, .rectangle2 {
+  position: absolute;
+  height: 2px;
+  z-index: 0;
+  background-color: #4CAF50;
+}
+
 body {
   background-color: #FFFFFF;
 }
@@ -11,26 +29,31 @@ body {
   margin-top: 48px;
   color: #FFFFFF;
   font-family: "Oswald", sans-serif;
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: 5;
   overflow: hidden;
   padding: 0;
 }
-
-nav {
-  height: 21px;
-  margin-left: 900px;
-  margin-top: 79px;
+.hero p {
+  margin-top: 40px;
+  margin-left: 310px;
+  height: 27px;
+  width: 1171px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.28px;
 }
 
-a {
+nav {
+  height: 20px;
+  margin-left: 900px;
+  margin-top: 80px;
+}
+nav a {
   margin-left: 50px;
   margin-right: 10px;
   font-family: "Oswald", sans-serif;
   font-size: 14px;
-  line-height: 21px;
   letter-spacing: 1.94px;
 }
 
@@ -44,64 +67,43 @@ h1 {
   letter-spacing: 4.61px;
 }
 
-.hero > p {
-  margin-top: 40px;
-  margin-left: 310px;
-  height: 27px;
-  width: 1171px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 1.28px;
-}
-
-.slade-controls > ul {
+.slade-controls ul {
   position: absolute;
   height: 49px;
   left: 843px;
-  top: 836px;
+  top: 895px;
   border-radius: 0px;
   margin: 0;
-  /* Обнуляем значение отступов */
   padding: 4px;
   /* Значение полей */
 }
 
-li.hr {
+.hr {
   display: inline;
   font-size: 18px;
   font-weight: 700;
-  line-height: 27px;
-  letter-spacing: 1.1520000696px;
+  letter-spacing: 1.152px;
   text-align: left;
   color: #ffffff6F;
 }
 
 li.hr:first-of-type {
   font-size: 36px;
-  line-height: 53px;
-  letter-spacing: 2.3040001392px;
+  letter-spacing: 2.3px;
   color: #FFFFFF;
 }
 
 .rectangle2 {
-  position: absolute;
   width: 9.98px;
-  height: 2px;
   left: 844px;
-  top: 860px;
-  z-index: 2;
-  background: #4CAF50;
+  top: 920px;
 }
 
 .rectangle3 {
-  position: absolute;
   width: 39.93px;
-  height: 2px;
   left: 847px;
-  top: 860px;
-  z-index: 0;
-  background: #4CAF50;
+  top: 920px;
+  z-index: 2;
 }
 
 .men {
@@ -121,9 +123,6 @@ li.hr:first-of-type {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-size: 36px;
-  line-height: 53px;
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 2.304px;
   color: #333333;
 }
@@ -135,19 +134,15 @@ li.hr:first-of-type {
   margin-left: 19px;
   margin-top: 149px;
   z-index: 2;
-  font-family: Open Sans;
-  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
   font-size: 42px;
-  line-height: 57px;
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 2.688px;
   color: #504E4E;
 }
 
 .lorem {
   /* Lorem ipsum dolor si */
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
@@ -166,14 +161,15 @@ li.hr:first-of-type {
   height: 75px;
 }
 
-.rectbl {
-  position: absolute;
+.recttwo, .rectbl {
   width: 20px;
-  height: 2px;
+  background: #353535;
+}
+
+.rectbl {
   top: 0px;
   margin-left: 40px;
   margin-top: 252px;
-  background: #353535;
 }
 
 .greenbox {
@@ -230,12 +226,8 @@ li.hr:first-of-type {
 }
 
 .recttwo {
-  position: absolute;
-  width: 20px;
-  height: 2px;
   left: 1190px;
   top: 1533px;
-  background: #353535;
 }
 
 .services {
@@ -248,9 +240,7 @@ li.hr:first-of-type {
 }
 
 .newrect {
-  position: absolute;
   width: 45px;
-  height: 2px;
   left: 332px;
   top: 207px;
   background: #252525;
@@ -307,10 +297,10 @@ li.hr:first-of-type {
   margin-left: 45px;
   width: 281px;
   height: 75px;
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   line-height: 25px;
-  letter-spacing: 1.0080000162px;
+  letter-spacing: 1px;
   text-align: left;
 }
 
@@ -406,7 +396,7 @@ li.hr:first-of-type {
   height: 18px;
   left: 365px;
   top: 2813px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 15px;
   display: flex;
@@ -420,11 +410,8 @@ li.hr:first-of-type {
   width: 95px;
   height: 18px;
   top: 2813px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
-  line-height: 15px;
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 0.832px;
   color: #252525;
   mix-blend-mode: normal;
@@ -470,11 +457,7 @@ li.hr:first-of-type {
   margin-left: 494px;
   margin-top: 271px;
   font-family: "Oswald", sans-serif;
-  font-weight: 300;
   font-size: 48px;
-  line-height: 71px;
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 3.072px;
   color: #252525;
 }
@@ -505,7 +488,7 @@ li.hr:first-of-type {
   height: 25px;
   /* left: 174px;
   top: 467px; */
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   display: flex;
@@ -538,7 +521,7 @@ li.hr:first-of-type {
   position: absolute;
   width: 336px;
   height: 46px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 23px;
   /* or 177% */
@@ -634,7 +617,7 @@ li.hr:first-of-type {
   height: 93px;
   left: 533px;
   top: 5418px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 31px;
   /* or 221% */
@@ -653,7 +636,7 @@ li.hr:first-of-type {
   top: 5542px;
 }
 
-.gridlist6 {
+.gridst {
   position: absolute;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -662,7 +645,7 @@ li.hr:first-of-type {
   left: 843px;
 }
 
-.linelist6 {
+.linestars {
   position: absolute;
   width: 511px;
   height: 1px;
@@ -680,13 +663,7 @@ li.hr:first-of-type {
   left: 806px;
   top: 5591px;
   font-family: "Oswald", sans-serif;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 27px;
-  /* identical to box height */
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
   letter-spacing: 1.152px;
   color: #373737;
 }
@@ -702,15 +679,10 @@ li.hr:first-of-type {
   background: #FBFBFB;
 }
 
-.title_list6 {
+.title_stars {
   font-family: "Oswald", sans-serif;
-  font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
   letter-spacing: 2.66667px;
   color: #373737;
 }
@@ -732,7 +704,7 @@ li.hr:first-of-type {
 }
 
 .info {
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 16px;
   display: flex;
@@ -836,9 +808,6 @@ li.hr:first-of-type {
   font-weight: 300;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 1.152px;
   z-index: 1;
   color: #252525;
@@ -919,9 +888,6 @@ li.hr:first-of-type {
   font-weight: 300;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 1.152px;
   color: #252525;
 }
@@ -931,16 +897,10 @@ li.hr:first-of-type {
   position: absolute;
   width: 311px;
   height: 25px;
-  top: 0px;
   margin-top: 422px;
   margin-left: 250px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
-  line-height: 25px;
-  /* identical to box height, or 208% */
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 1.008px;
   color: #777777;
 }
@@ -952,8 +912,7 @@ li.hr:first-of-type {
   left: 981px;
   top: 262px;
 }
-
-.person3 {
+.team3 .person3 {
   position: absolute;
   width: 370px;
   height: 398px;
@@ -962,15 +921,13 @@ li.hr:first-of-type {
   margin-top: 19px;
   background: #D8D8D8;
 }
-
-.tim {
+.team3 .tim {
   top: 0px;
   margin-top: 374px;
   margin-left: 283px;
   z-index: 1;
 }
-
-.rect3 {
+.team3 .rect3 {
   position: absolute;
   width: 370px;
   height: 55px;
@@ -996,15 +953,11 @@ footer {
 .footer-content {
   height: 174px;
   width: 259px;
-  left: 772px;
-  top: 83px;
   margin: 82px 730px;
   padding-top: 60px;
   font-family: "Oswald", sans-serif;
   font-size: 13px;
-  font-weight: 300;
-  line-height: 19px;
-  letter-spacing: 0.8320000768px;
+  letter-spacing: 0.832px;
   text-align: left;
   opacity: 50%;
 }
