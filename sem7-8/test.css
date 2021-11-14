@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .hero {
@@ -27,7 +27,7 @@ body {
   width: 1800px;
   margin-left: 50px;
   margin-top: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Oswald", sans-serif;
   z-index: 5;
   overflow: hidden;
@@ -90,7 +90,7 @@ h1 {
 li.hr:first-of-type {
   font-size: 36px;
   letter-spacing: 2.3px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .rectangle2 {
@@ -247,7 +247,7 @@ li.hr:first-of-type {
 }
 
 .grid-item {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 373px;
   height: 260px;
   margin-top: 50px;
@@ -330,7 +330,7 @@ li.hr:first-of-type {
   margin-left: 275px;
   margin-top: 50px;
   border-radius: 50%;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 20px #DBDBDB;
 }
 
@@ -742,7 +742,7 @@ li.hr:first-of-type {
 }
 
 .contact {
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   width: 117px;
   height: 36px;
@@ -751,7 +751,7 @@ li.hr:first-of-type {
 }
 
 .in_touch {
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   width: 95px;
   height: 19px;
@@ -826,7 +826,7 @@ li.hr:first-of-type {
   top: 0px;
   margin-top: 349px;
   margin-left: 130px;
-  background: #FFFFFF;
+  background: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
 }
@@ -852,7 +852,7 @@ li.hr:first-of-type {
   margin-left: 160px;
   top: 0px;
   margin-top: 79px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .rect2 {
@@ -862,7 +862,7 @@ li.hr:first-of-type {
   top: 0px;
   margin-top: 321.76px;
   margin-left: 160px;
-  background: #FFFFFF;
+  background: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.92;
 }
@@ -934,7 +934,7 @@ li.hr:first-of-type {
   top: 0px;
   margin-top: 362px;
   margin-left: 139px;
-  background: #FFFFFF;
+  background: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
 }
@@ -947,7 +947,7 @@ footer {
   width: 1806px;
   left: 49px;
   top: 6105px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-content {
