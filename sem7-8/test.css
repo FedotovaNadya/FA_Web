@@ -1,15 +1,6 @@
 @charset "UTF-8";
 /*colors*/
 /*fonts*/
-/**
-Также существует набор собственных функций SCSS: https://sass-lang.com/documentation/modules
-
-ЗАДАЧИ:
-
-1) Реализовать примеры, описанные в обучающей части и отобразить их в html файле (создать html файл, который будет использовать скомпилированный css)
-
-2) Реализовать макет из файла семинара 5-6 с использованием SCSS, используя его возможности по максимуму
-*/
 .newrect, .recttwo, .rectbl, .rectangle3, .rectangle2 {
   position: absolute;
   height: 2px;
