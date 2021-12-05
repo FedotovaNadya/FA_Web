@@ -20,12 +20,7 @@ function listToArray(lst) {
 }
 
 function prepend(elem, lst) {
-    a= null
-    a={value: elem, rest: a}
-    arr=listToArray(lst)
-    for (let index = arr.length-1; index >= 0; index--) {
-        a = {value: arr[index], rest: a}
-    }
+    a={value: elem, rest: lst}
     return a
 }
 
