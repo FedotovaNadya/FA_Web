@@ -1,0 +1,37 @@
+form{
+    background-color: springgreen;
+    min-height: 300px;
+    width: auto;
+    margin: 10%;
+    padding: 5%;
+    position: relative;
+}
+.sel{
+    background-color: burlywood;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 40%;
+}
+.textbox{
+    background-color: violet;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 40%;
+}
+.radio{
+    position: absolute;
+    background-color: red;
+    width: 40%;
+    top: 5%;
+    right: 5%;
+}
+
+.btn{
+    position: absolute;
+    background-color: steelblue;
+    width: 40%;
+    right: 5%;
+    top: 70%;
+}

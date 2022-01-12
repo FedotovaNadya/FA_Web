@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блок 1</title>
+    <link rel="stylesheet" href="block1.css">
+    <script src="block1.js"></script>
+</head>
+
+<body>
+    <form action="#" method="post" name="Bank">
+        <div class="sel">
+            <select id="sel" onchange="credit();">
+                <option value="1">Сбер</option>
+                <option value="2">ВТБ</option>
+                <option value="3">Альфа-банк</option>
+                <option value="4">Раффайзенбанк</option>
+            </select>
+        </div>
+        <div class="textbox">
+            <textarea name="tb" id="tb" cols="30" rows="3"></textarea>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="output" id="alert" checked>alert</label>
+            <label><input type="radio" name="output" id="local">LocalStorage</label>
+        </div>
+        <div class="btn">
+            <input type="button" value="Минимальный процент" onClick="btnClick();">
+        </div>
+
+    </form>
+</body>
+
+</html>
